@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <h1>Form Elements</h1>
+  <form action="" method="get" autocomplete="" enctype="">
+    <fieldset>
+      <legend>Registration form</legend>
+
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="fname" value="admin" readonly placeholder="Your name.." required>
+
+      <br><br>
+      <label for="lname">Last Name</label>
+      <input type="text" name="lname" id="lname" required>
+
+      <br><br>
+
+      <input type="submit" value="Send">
+    </fieldset>
+  </form>
+
+  <!-- form elements collect data in string query parameters ?name1=value1&name2=value2&name3=value
+        action => server path / server file path/name / url address
+        method => get  => data will be visible
+                  post  -> data will be hidden
+        enctype => urlencoded is default encoding format 
+                    multipart/form-data => if form includes input type file
+        autocomplete => on (autofill willbe on) /off (autofill willbe off)
+        form tags
+
+                fieldset -> create the border line around the form
+                legend    -> add the  title by breaking the fieldset
+                input  - 15+
+                        text,number,email,password,radio,checkbox,date,datetime,datetime-local,time,month,week,file,search,color,tel(deprecated),range,submit,reset,hidden,image,url
+
+                label  -> add the label
+                select -> dropdown single,multiple
+                textarea -> multi line input 
+                button 
+    -->
+</body>
+
+</html>

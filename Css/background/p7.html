@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         .container {
+            width: 500px;
+            padding: 20px;
+        }
+
+        .b1,.b2,.b3,.b4 {
+            width: 400px;
+            height: 200px;
+            padding: 20px;
+            margin: 10px;
+            background-image: url('./panel2.jpeg');
+            border:10px dashed #ccc;
+            background-repeat: no-repeat;
+        }
+
+        h1 {
+            font-size: 4rem;
+        }
+
+        .b1 {
+            background-blend-mode: normal;
+        }
+
+        .b2 {
+            background-blend-mode: multiply;
+        }
+
+        .b3 {
+            background-blend-mode: hard-light;
+        }
+
+        .b4 {
+            background-blend-mode: difference;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>background-blend-mode</h1>
+
+    <section class="container">
+        <div class="b1">
+            <h1>Normal</h1>
+        </div>
+        <div class="b2">
+            <h1>Multiply</h1>
+        </div>
+        <div class="b3">
+            <h1>Hard-light</h1>
+        </div>
+        <div class="b4">
+            <h1>difference</h1>
+        </div>
+</section>
+</body>
+</html>

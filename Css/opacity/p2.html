@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #ccc;
+        }
+
+        .container {
+            display: flex;
+        }
+        .card {
+            width: 200px;
+            height: 100%;
+            background-color: red;
+            color:#fff;
+            padding: 20px;
+            cursor: pointer;
+            transition: all 0.4s;
+            margin: 20px;
+        }
+        /* .card:hover {
+            opacity: 0.2;
+            filter: blur(3px);
+        } */
+
+
+        .container:hover .card {
+            opacity: 0.2;
+            filter:blur(3px);
+        }
+
+        .container .card:hover {
+            opacity: 1;
+            filter: blur(0px);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>filter</h1>
+    <section class="container">
+        <div class="card">
+            <h3>Card heading</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium nisi et, unde obcaecati similique quod reiciendis debitis iusto repudiandae in beatae repellat saepe officiis possimus ducimus assumenda officia voluptatibus magni!</p>
+        </div>
+        <div class="card">
+            <h3>Card heading</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium nisi et, unde obcaecati similique quod reiciendis debitis iusto repudiandae in beatae repellat saepe officiis possimus ducimus assumenda officia voluptatibus magni!</p>
+        </div>
+        <div class="card">
+            <h3>Card heading</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium nisi et, unde obcaecati similique quod reiciendis debitis iusto repudiandae in beatae repellat saepe officiis possimus ducimus assumenda officia voluptatibus magni!</p>
+        </div>
+    </section>
+</body>
+</html>

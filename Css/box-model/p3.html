@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+            section {
+                width: 400px;
+                border:2px solid red;
+            }
+            .b1,.b2 {
+                margin: 20px;
+                padding: 20px;
+                width: 350px;
+                color: #888;
+                border:2px solid #222;
+            }
+
+            .b1 {
+                box-sizing: border-box; 
+            }
+
+            .b2 {
+                box-sizing: content-box;
+            }
+    </style>
+</head>
+<body>
+    <h1>Box-sizing</h1>
+    <section>
+        <div class="b1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates provident, architecto odio, possimus ea corporis quidem quia dolor quasi, dolores sit magnam eveniet tempore. Fugiat quod placeat tenetur nulla numquam?</div>
+
+        <div class="b2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates provident, architecto odio, possimus ea corporis quidem quia dolor quasi, dolores sit magnam eveniet tempore. Fugiat quod placeat tenetur nulla numquam?</div>
+    </section>
+</body>
+</html>
